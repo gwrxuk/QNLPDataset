@@ -1,0 +1,141 @@
+{
+  "analysis_timestamp": "2025-09-20T01:29:31.186373",
+  "sample_sizes": {
+    "jieba": 5,
+    "chatgpt": 5
+  },
+  "jieba_metrics": {
+    "avg_coherence": 0.2914411964380494,
+    "avg_entropy": 0.0,
+    "avg_interference": 1.0,
+    "avg_superposition": 0.163457155040826,
+    "avg_word_count": 8.8
+  },
+  "chatgpt_metrics": {
+    "avg_coherence": 0.4900664341661213,
+    "avg_entropy": 0.0,
+    "avg_interference": 1.0,
+    "avg_superposition": 0.2989300351554337,
+    "avg_word_count": 18.0
+  },
+  "insights": [
+    "ChatGPT斷詞展現更高的量子連貫性，表示語義一致性更強",
+    "ChatGPT傾向產生更細粒度的斷詞結果"
+  ],
+  "detailed_results": {
+    "jieba": [
+      {
+        "record_id": 0,
+        "word_count": 9,
+        "quantum_props": {
+          "entropy": 0.0,
+          "coherence": 0.31214731383385563,
+          "interference": 1.0,
+          "superposition": 0.17462348962165053
+        },
+        "text_preview": "日本能源轉向 增核能降火力 台灣應借鏡？Japan Shif..."
+      },
+      {
+        "record_id": 1,
+        "word_count": 10,
+        "quantum_props": {
+          "entropy": 0.0,
+          "coherence": 0.3527593339854459,
+          "interference": 1.0,
+          "superposition": 0.2008061629321506
+        },
+        "text_preview": "麥當勞性侵案後改革 董事長發聲承諾改善McDonald's ..."
+      },
+      {
+        "record_id": 2,
+        "word_count": 10,
+        "quantum_props": {
+          "entropy": 0.0,
+          "coherence": 0.3527593339854459,
+          "interference": 1.0,
+          "superposition": 0.2008061629321506
+        },
+        "text_preview": "回收3.87元遭貪污起訴？清潔隊員案掀社會熱議\"Garbag..."
+      },
+      {
+        "record_id": 3,
+        "word_count": 6,
+        "quantum_props": {
+          "entropy": 0.0,
+          "coherence": 0.12739268655164393,
+          "interference": 1.0,
+          "superposition": 0.0664264700965278
+        },
+        "text_preview": "Google示警！AI詐騙電話橫行，Gmail用戶警惕Goo..."
+      },
+      {
+        "record_id": 4,
+        "word_count": 9,
+        "quantum_props": {
+          "entropy": 0.0,
+          "coherence": 0.31214731383385563,
+          "interference": 1.0,
+          "superposition": 0.17462348962165053
+        },
+        "text_preview": "台男走私22公斤古柯鹼入日 創個人紀錄Taiwanese M..."
+      }
+    ],
+    "chatgpt": [
+      {
+        "record_id": 0,
+        "word_count": 19,
+        "quantum_props": {
+          "entropy": 0.0,
+          "coherence": 0.5227239838294837,
+          "interference": 1.0,
+          "superposition": 0.3234743515509936
+        },
+        "text_preview": "日本能源轉向 增核能降火力 台灣應借鏡？Japan Shif..."
+      },
+      {
+        "record_id": 1,
+        "word_count": 13,
+        "quantum_props": {
+          "entropy": 0.0,
+          "coherence": 0.4370961782779704,
+          "interference": 1.0,
+          "superposition": 0.25871166140627255
+        },
+        "text_preview": "麥當勞性侵案後改革 董事長發聲承諾改善McDonald's ..."
+      },
+      {
+        "record_id": 2,
+        "word_count": 21,
+        "quantum_props": {
+          "entropy": 0.0,
+          "coherence": 0.5396876472928603,
+          "interference": 1.0,
+          "superposition": 0.33717070874623867
+        },
+        "text_preview": "回收3.87元遭貪污起訴？清潔隊員案掀社會熱議\"Garbag..."
+      },
+      {
+        "record_id": 3,
+        "word_count": 20,
+        "quantum_props": {
+          "entropy": 0.0,
+          "coherence": 0.4494320699896531,
+          "interference": 1.0,
+          "superposition": 0.26860604715119085
+        },
+        "text_preview": "Google示警！AI詐騙電話橫行，Gmail用戶警惕Goo..."
+      },
+      {
+        "record_id": 4,
+        "word_count": 17,
+        "quantum_props": {
+          "entropy": 0.0,
+          "coherence": 0.5013922914406388,
+          "interference": 1.0,
+          "superposition": 0.30668740692247287
+        },
+        "text_preview": "台男走私22公斤古柯鹼入日 創個人紀錄Taiwanese M..."
+      }
+    ]
+  }
+}

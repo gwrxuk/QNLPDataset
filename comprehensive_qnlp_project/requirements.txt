@@ -1,0 +1,83 @@
+# 綜合量子自然語言處理分析項目依賴包
+# Comprehensive QNLP Analysis Project Dependencies
+
+# 量子計算框架 / Quantum Computing Framework
+qiskit>=0.45.0
+qiskit-aer>=0.13.0
+qiskit-ibm-runtime>=0.15.0
+
+# 機器學習和數據科學 / Machine Learning & Data Science
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# 視覺化 / Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# 自然語言處理 / Natural Language Processing
+jieba>=0.42.1
+openai>=1.0.0
+tiktoken>=0.5.0
+
+# 中文文本處理 / Chinese Text Processing
+zhconv>=1.4.3
+pypinyin>=0.49.0
+
+# 文件處理 / File Processing
+openpyxl>=3.1.0
+xlrd>=2.0.1
+python-docx>=0.8.11
+
+# 網絡請求 / HTTP Requests
+requests>=2.31.0
+httpx>=0.24.0
+
+# 異步處理 / Async Processing
+asyncio
+aiohttp>=3.8.0
+
+# 進度條和日誌 / Progress Bars & Logging
+tqdm>=4.65.0
+loguru>=0.7.0
+
+# 配置管理 / Configuration Management
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# 統計分析 / Statistical Analysis
+statsmodels>=0.14.0
+pingouin>=0.5.0
+
+# 並行處理 / Parallel Processing
+joblib>=1.3.0
+multiprocessing-logging>=0.3.4
+
+# 測試框架 / Testing Framework
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.0
+
+# 代碼質量 / Code Quality
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Jupyter支持 / Jupyter Support
+jupyter>=1.0.0
+ipywidgets>=8.1.0
+notebook>=7.0.0
+
+# 系統工具 / System Tools
+psutil>=5.9.0
+memory-profiler>=0.61.0
+
+# 字體支持 / Font Support (可選 / Optional)
+# fonttools>=4.42.0
+# matplotlib-fontconfig>=0.1.0
+
+# 開發工具 / Development Tools (可選 / Optional)
+# ipdb>=0.13.13
+# line-profiler>=4.1.0

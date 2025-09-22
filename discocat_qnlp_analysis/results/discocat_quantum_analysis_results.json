@@ -1,0 +1,64 @@
+{
+  "analysis_type": "DisCoCat Enhanced Quantum NLP",
+  "timestamp": "2025-09-20 18:28:16",
+  "total_records_analyzed": 894,
+  "discopy_integration": false,
+  "field_results": {
+    "新聞標題": {
+      "field": "新聞標題",
+      "total_records": 298,
+      "processing_time_seconds": 0.06278514862060547,
+      "avg_multiple_reality_strength": 0.5,
+      "avg_frame_conflict_strength": 0.5,
+      "avg_semantic_ambiguity": 0.5,
+      "avg_category_coherence": 0.5,
+      "avg_compositional_complexity": 0.0,
+      "avg_categorical_diversity": 0.0,
+      "discocat_enhanced_percentage": 0.0
+    },
+    "影片對話": {
+      "field": "影片對話",
+      "total_records": 298,
+      "processing_time_seconds": 1.0966157913208008,
+      "avg_multiple_reality_strength": 0.5,
+      "avg_frame_conflict_strength": 0.5,
+      "avg_semantic_ambiguity": 0.5,
+      "avg_category_coherence": 0.5,
+      "avg_compositional_complexity": 0.0,
+      "avg_categorical_diversity": 0.0,
+      "discocat_enhanced_percentage": 0.0
+    },
+    "影片描述": {
+      "field": "影片描述",
+      "total_records": 298,
+      "processing_time_seconds": 0.7538759708404541,
+      "avg_multiple_reality_strength": 0.5,
+      "avg_frame_conflict_strength": 0.5,
+      "avg_semantic_ambiguity": 0.5,
+      "avg_category_coherence": 0.5,
+      "avg_compositional_complexity": 0.0,
+      "avg_categorical_diversity": 0.0,
+      "discocat_enhanced_percentage": 0.0
+    }
+  },
+  "global_quantum_metrics": {
+    "avg_multiple_reality_strength": 0.5,
+    "avg_frame_conflict_strength": 0.5,
+    "avg_semantic_ambiguity": 0.5,
+    "avg_category_coherence": 0.5,
+    "avg_compositional_entanglement": 0.5,
+    "avg_categorical_diversity": 0.0
+  },
+  "multiple_reality_analysis": {
+    "high_reality_multiplicity_records": 0,
+    "high_frame_conflict_records": 0,
+    "high_ambiguity_records": 0,
+    "multiple_reality_prevalence": 0.0
+  },
+  "discocat_enhancements": {
+    "categorical_analysis_enabled": true,
+    "compositional_structure_analysis": true,
+    "grammatical_entanglement_modeling": true,
+    "category_specific_coherence": true
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "analysis_type": "DisCoCat Enhanced Segmentation",
+  "timestamp": "2025-09-20 18:22:39",
+  "total_records_analyzed": 894,
+  "fields_analyzed": [
+    "新聞標題",
+    "影片對話",
+    "影片描述"
+  ],
+  "field_summaries": {
+    "新聞標題": {
+      "field": "新聞標題",
+      "total_records": 298,
+      "total_words": 5130,
+      "vocabulary_size": 3048,
+      "avg_words_per_record": 17.21476510067114,
+      "most_common_words": {
+        "\"": 69,
+        "，": 41,
+        "：": 41,
+        "in": 39,
+        "Sparks": 39,
+        "Taiwan": 36,
+        "to": 31,
+        "！": 30,
+        "」": 30,
+        "爭議": 29,
+        "for": 28,
+        "Debate": 27,
+        "「": 26,
+        "引發": 23,
+        "AI": 18,
+        "惹議": 18,
+        "？": 16,
+        "Faces": 15,
+        "US": 15,
+        "萬": 15
+      },
+      "category_distribution": {
+        "N": 1078,
+        "P": 40,
+        "V": 909,
+        "A": 66,
+        "X": 2640,
+        "M": 228,
+        "Q": 33,
+        "R": 12,
+        "D": 79,
+        "U": 4,
+        "F": 15,
+        "B": 22,
+        "C": 4
+      },
+      "compositional_statistics": {
+        "total_noun_phrases": 237,
+        "total_verb_phrases": 43,
+        "total_prep_phrases": 19,
+        "avg_compositional_complexity": 37.07046979865772,
+        "avg_semantic_density": 4.282382550335571
+      },
+      "processing_time_seconds": 4.330636978149414
+    },
+    "影片對話": {
+      "field": "影片對話",
+      "total_records": 298,
+      "total_words": 114290,
+      "vocabulary_size": 11781,
+      "avg_words_per_record": 383.5234899328859,
+      "most_common_words": {
+        "，": 8509,
+        "的": 4131,
+        "。": 3383,
+        "是": 2136,
+        "：": 2107,
+        "？": 1615,
+        "這": 1441,
+        "「": 1337,
+        "」": 1336,
+        "名嘴": 1057,
+        "了": 865,
+        "有": 825,
+        "、": 817,
+        "不": 774,
+        "A": 749,
+        "說": 730,
+        "在": 689,
+        "還": 673,
+        "但": 671,
+        "你": 670
+      },
+      "category_distribution": {
+        "N": 24172,
+        "X": 35638,
+        "R": 7252,
+        "V": 24799,
+        "M": 2671,
+        "C": 3915,
+        "D": 8257,
+        "A": 2738,
+        "F": 714,
+        "Q": 542,
+        "B": 444,
+        "P": 2813,
+        "U": 312,
+        "E": 23
+      },
+      "compositional_statistics": {
+        "total_noun_phrases": 3540,
+        "total_verb_phrases": 1810,
+        "total_prep_phrases": 1584,
+        "avg_compositional_complexity": 3786.8859060402683,
+        "avg_semantic_density": 31.75470338758926
+      },
+      "processing_time_seconds": 107.84393978118896
+    },
+    "影片描述": {
+      "field": "影片描述",
+      "total_records": 298,
+      "total_words": 81877,
+      "vocabulary_size": 17351,
+      "avg_words_per_record": 274.755033557047,
+      "most_common_words": {
+        "，": 3123,
+        "。": 1875,
+        "的": 877,
+        "、": 808,
+        "「": 600,
+        "」": 600,
+        "\"": 430,
+        "與": 420,
+        "the": 347,
+        "台灣": 330,
+        "Taiwan": 317,
+        "dan": 304,
+        "對": 288,
+        "在": 275,
+        "並": 247,
+        "and": 245,
+        "to": 243,
+        "】": 221,
+        "【": 220,
+        "台湾": 218
+      },
+      "category_distribution": {
+        "N": 15025,
+        "X": 44110,
+        "M": 3028,
+        "V": 11682,
+        "D": 2038,
+        "P": 1660,
+        "A": 1253,
+        "C": 896,
+        "R": 920,
+        "B": 280,
+        "F": 498,
+        "Q": 370,
+        "U": 117
+      },
+      "compositional_statistics": {
+        "total_noun_phrases": 2901,
+        "total_verb_phrases": 603,
+        "total_prep_phrases": 878,
+        "avg_compositional_complexity": 1536.268456375839,
+        "avg_semantic_density": 25.137369500372845
+      },
+      "processing_time_seconds": 55.36490774154663
+    }
+  },
+  "global_statistics": {
+    "total_word_tokens": 201297,
+    "vocabulary_size": 45,
+    "avg_words_per_record": 225.16442953020135,
+    "total_compositional_complexity": 5360.224832214764,
+    "discocat_ready_percentage": 100.0
+  },
+  "discocat_features": {
+    "categorical_analysis_enabled": true,
+    "compositional_structure_analysis": true,
+    "semantic_role_identification": true,
+    "discopy_integration": false
+  }
+}

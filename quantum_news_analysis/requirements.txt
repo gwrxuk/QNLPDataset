@@ -1,0 +1,37 @@
+# 量子新聞分析項目依賴包
+# Quantum News Analysis Project Dependencies
+
+# 量子計算框架 / Quantum Computing Framework
+qiskit>=0.45.0
+qiskit-aer>=0.13.0
+qiskit-ibm-runtime>=0.15.0
+
+# 數據處理和分析 / Data Processing and Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# 機器學習 / Machine Learning
+scikit-learn>=1.3.0
+
+# 中文自然語言處理 / Chinese Natural Language Processing
+jieba>=0.42.1
+
+# 網絡分析 / Network Analysis
+networkx>=3.1
+
+# 文件處理 / File Processing
+openpyxl>=3.1.0
+
+# 進度條 / Progress Bars
+tqdm>=4.65.0
+
+# 統計分析 / Statistical Analysis
+statsmodels>=0.14.0
+
+# 視覺化 (可選) / Visualization (Optional)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# 測試框架 (可選) / Testing Framework (Optional)
+pytest>=7.4.0
