@@ -1,0 +1,6 @@
+﻿Source,Field,Count,Frame_Competition_Mean,Frame_Competition_Std,Frame_Competition_Min,Frame_Competition_Max,Semantic_Interference_Mean,Semantic_Interference_Std,High_Competition_gt_09,Low_Conflict_lt_01
+AI Generated,新聞標題,50,1.0000,0.0000,1.0000,1.0000,0.0012,0.0022,50/50 (100.0%),50/50 (100.0%)
+AI Generated,影片對話,50,1.0000,0.0000,1.0000,1.0000,0.0188,0.0046,50/50 (100.0%),50/50 (100.0%)
+AI Generated,影片描述,50,1.0000,0.0000,1.0000,1.0000,0.0109,0.0036,50/50 (100.0%),50/50 (100.0%)
+Journalist Written,新聞標題,20,1.0000,0.0000,1.0000,1.0000,0.0008,0.0022,20/20 (100.0%),20/20 (100.0%)
+Journalist Written,新聞內容,20,1.0000,0.0000,1.0000,1.0000,0.0177,0.0060,20/20 (100.0%),20/20 (100.0%)

@@ -1,0 +1,30 @@
+{
+  "analysis_info": {
+    "ai_fields": [
+      "新聞標題",
+      "影片對話",
+      "影片描述"
+    ],
+    "journalist_fields": [
+      "新聞標題",
+      "新聞內容"
+    ],
+    "versions": [
+      "restricted",
+      "unrestricted"
+    ],
+    "analysis_date": "2024-09-26"
+  },
+  "file_mapping": {
+    "ai_restricted": "../results/fair_comparison_ai_restricted_results.csv",
+    "journalist_restricted": "../results/fair_comparison_journalist_restricted_results.csv",
+    "ai_unrestricted": "../results/fair_comparison_ai_unrestricted_results.csv",
+    "journalist_unrestricted": "../results/fair_comparison_journalist_unrestricted_results.csv"
+  },
+  "stats_mapping": {
+    "ai_restricted": "../results/fair_comparison_ai_restricted_summary.json",
+    "journalist_restricted": "../results/fair_comparison_journalist_restricted_summary.json",
+    "ai_unrestricted": "../results/fair_comparison_ai_unrestricted_summary.json",
+    "journalist_unrestricted": "../results/fair_comparison_journalist_unrestricted_summary.json"
+  }
+}

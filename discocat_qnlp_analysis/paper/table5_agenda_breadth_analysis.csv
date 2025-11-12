@@ -1,0 +1,6 @@
+﻿Source,Field,Count,Von Neumann Entropy (Mean),Von Neumann Entropy (Std),Information Density (Mean),Information Density (Std),Avg Word Count,Avg Unique Words,Categorical Diversity (Mean),Categorical Diversity (Std),High Density (>0.5),Broad Agenda (>0.4)
+AI Generated,新聞標題,50,3.9800,0.1414,0.9760,0.0437,19.6,19.1,6.4200,1.5398,50/50 (100.0%),50/50 (100.0%)
+AI Generated,影片對話,50,4.0000,0.0000,0.5477,0.0567,379.6,202.5,26.9200,3.4632,42/50 (84.0%),50/50 (100.0%)
+AI Generated,影片描述,50,4.0000,0.0000,0.6353,0.1340,450.3,223.6,22.4600,3.6545,39/50 (78.0%),50/50 (100.0%)
+Journalist Written,新聞標題,20,3.8500,0.3663,0.9891,0.0272,11.4,11.3,6.1000,1.9708,20/20 (100.0%),20/20 (100.0%)
+Journalist Written,新聞內容,20,4.0000,0.0000,0.5391,0.0744,568.1,290.6,29.7500,4.8761,14/20 (70.0%),20/20 (100.0%)

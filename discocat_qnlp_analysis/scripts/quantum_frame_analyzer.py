@@ -274,13 +274,14 @@ class QuantumFrameAnalyzer:
             metrics = {}
             
             # 1. 框架競爭強度
+            metrics['frame_competition'] = float(min(1.0, entropy_val * 0.5))
             if len(valid_probs) > 1:
                 uniform_prob = 1.0 / len(valid_probs)
                 kl_divergence = np.sum(valid_probs * np.log2((valid_probs + 1e-12) / uniform_prob))
                 max_kl = np.log2(len(valid_probs))
-                metrics['frame_competition'] = float(1.0 - min(1.0, kl_divergence / max_kl))
+                metrics['frame_competition_kl'] = float(1.0 - min(1.0, kl_divergence / max_kl))
             else:
-                metrics['frame_competition'] = 0.0
+                metrics['frame_competition_kl'] = 0.0
             
             # 2. 情感框架強度
             emotion_prob_sum = np.sum(probabilities[:8])  # 前8個狀態對應情感框架
@@ -320,6 +321,8 @@ class QuantumFrameAnalyzer:
         """返回預設量子指標"""
         return {
             'frame_competition': 0.5,
+            'frame_competition_kl': 0.5,
+            'frame_competition_kl': 0.5,
             'emotion_frame_strength': 0.5,
             'reform_frame_strength': 0.5,
             'frame_entanglement': 0.3,
@@ -419,6 +422,7 @@ class QuantumFrameAnalyzer:
                 
                 # 量子指標
                 'frame_competition': quantum_metrics['frame_competition'],
+                'frame_competition_kl': quantum_metrics.get('frame_competition_kl', 0.0),
                 'emotion_frame_strength': quantum_metrics['emotion_frame_strength'],
                 'reform_frame_strength': quantum_metrics['reform_frame_strength'],
                 'frame_entanglement': quantum_metrics['frame_entanglement'],

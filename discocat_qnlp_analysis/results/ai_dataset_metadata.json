@@ -1,0 +1,84 @@
+{
+  "dataset_name": "AI生成新闻数据集",
+  "file_name": "dataseet.xlsx",
+  "file_format": "Excel (.xlsx)",
+  "total_records": 298,
+  "total_columns": 4,
+  "column_names": [
+    "發布時間",
+    "新聞標題",
+    "影片對話",
+    "影片描述"
+  ],
+  "analysis_date": "2025-09-26 15:27:04",
+  "fields_analysis": {
+    "發布時間": {
+      "non_null_count": 298,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "data_type": "datetime64[ns]"
+    },
+    "新聞標題": {
+      "non_null_count": 298,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "data_type": "object",
+      "avg_length": 67.19798657718121,
+      "min_length": 15,
+      "max_length": 100,
+      "median_length": 66.0,
+      "samples": [
+        "麥當勞性侵案後改革 董事長發聲承諾改善McDonald's Pledges Reform After Assault Scandal",
+        "回收3.87元遭貪污起訴？清潔隊員案掀社會熱議\"Garbage Collectors Indicted for $3.87 Bribery? Public Outrage Ensues\"",
+        "Google示警！AI詐騙電話橫行，Gmail用戶警惕Google Alert! AI Scam Calls Targeting Gmail Users"
+      ]
+    },
+    "影片對話": {
+      "non_null_count": 298,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "data_type": "object",
+      "avg_length": 609.6174496644295,
+      "min_length": 201,
+      "max_length": 2713,
+      "median_length": 559.5,
+      "samples": [
+        "主持人A：「這次麥當勞的公開信算是一種企業危機處理，強調改革，但這樣的措施真的能解決問題嗎？」\n\n📌 名嘴B：「我覺得這封信是必要的，畢竟這起事件社會輿論極大，消費者抵制聲浪也很強。但企業真正要做的，...",
+        "主持人A：今天我們要討論的是近期引發廣泛關注的清潔隊夫妻貪污案，吳姓男子因為轉送二手家具，竟然面臨五年以上的刑責，這樣的判決合理嗎？\n\n名嘴B：這根本就是大砲打小鳥！法條的原意是要防止貪污，但這次的案...",
+        "\n主持人：最近 Google 針對 Gmail 用戶發布「紅色警報」，指出 AI 詐騙電話與郵件正在橫行，這手法有多危險？\n\n資安專家 A：這次的詐騙可怕之處在於「偽造度極高」。駭客利用 AI 模仿 ..."
+      ]
+    },
+    "影片描述": {
+      "non_null_count": 298,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "data_type": "object",
+      "avg_length": 1281.523489932886,
+      "min_length": 112,
+      "max_length": 4657,
+      "median_length": 335.0,
+      "samples": [
+        "台灣麥當勞於今（19日）發表最新聲明，針對去年底發生的職場性侵案，首次公布「3大安心作為」，並承諾加強員工保護機制，提升企業責任。董事長李昌霖發表公開信，強調「沒有任何藉口，企業必須檢討！」，承諾確保...",
+        "台北市萬華區一對清潔隊工作的吳姓夫妻，因涉嫌私自將回收物品轉贈朋友，觸犯《貪污治罪條例》，台北地檢署已正式起訴。然而，案件涉及的不法金額僅新台幣 3.87 元，引發社會廣泛討論。 檢察官表示，根據法律...",
+        "Google 近日向全球 18 億 Gmail 用戶發布**「紅色警報」**，警告 AI 驅動的詐騙手法正在猖獗，台灣民眾務必提高警覺！這類詐騙手法會透過 AI 偽造電話和電子郵件，讓用戶誤以為 Gm..."
+      ]
+    }
+  },
+  "content_quality": {
+    "新聞標題": {
+      "avg_word_count": 67.19798657718121,
+      "unique_titles": 296,
+      "duplicate_rate": 0.6711409395973155
+    },
+    "影片對話": {
+      "avg_word_count": 609.6174496644295,
+      "unique_dialogues": 296,
+      "duplicate_rate": 0.6711409395973155
+    },
+    "影片描述": {
+      "avg_word_count": 1281.523489932886,
+      "unique_descriptions": 298,
+      "duplicate_rate": 0.0
+    }
+  }
+}

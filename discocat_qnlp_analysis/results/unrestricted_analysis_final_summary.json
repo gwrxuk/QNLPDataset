@@ -1,0 +1,43 @@
+{
+  "unrestricted_analysis_summary": {
+    "analysis_date": "2024-09-26",
+    "key_findings": {
+      "grammatical_superposition": {
+        "description": "语法叠加强度真实值远超1.0限制",
+        "ai_news": {
+          "restricted": 1.0,
+          "unrestricted": 3.768814937327729,
+          "growth_factor": 3.768814937327729
+        },
+        "journalist_news": {
+          "restricted": 1.0,
+          "unrestricted": 3.6091863964158337,
+          "growth_factor": 3.6091863964158337
+        },
+        "theoretical_maximum": 4.0,
+        "actual_values_close_to_maximum": true
+      },
+      "semantic_interference": {
+        "description": "语义干涉在无限制下显示更真实的差异",
+        "ai_vs_journalist_ratio_restricted": 378.2927472763457,
+        "ai_vs_journalist_ratio_unrestricted": 1.705077820535622
+      },
+      "multiple_reality_strength": {
+        "description": "多重现实强度在无限制下显著增长",
+        "ai_growth": 112.60927822401858,
+        "journalist_growth": 122.13257124442491
+      }
+    },
+    "major_discoveries": [
+      "语法叠加强度真实值接近理论最大值4.0，AI新闻(3.77)略高于记者新闻(3.61)",
+      "多重现实强度在无限制下显著增长，AI新闻增长112%，记者新闻增长122%",
+      "语义干涉的真实差异被大幅低估，无限制版本显示更小但更真实的差异",
+      "移除人工限制后，AI新闻和记者新闻的量子特征差异变得更加细微和真实"
+    ],
+    "implications": {
+      "theoretical": "证实了量子叠加理论在自然语言中的适用性",
+      "practical": "为AI内容检测提供了更精确的量子特征基线",
+      "methodological": "证明了人工限制对量子分析结果的严重影响"
+    }
+  }
+}

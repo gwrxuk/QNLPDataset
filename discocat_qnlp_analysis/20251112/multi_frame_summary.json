@@ -1,0 +1,235 @@
+{
+  "CNA": {
+    "frame_competition": {
+      "mean": 0.42195667227243394,
+      "std": 0.4430579397405966,
+      "min": -0.0,
+      "max": 1.0,
+      "median": 0.2295739585136224
+    },
+    "frame_competition_kl": {
+      "mean": 0.45260879489467226,
+      "std": 0.45550812585641154,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.3864755161357712
+    },
+    "frame_entropy": {
+      "mean": 0.4526087948946723,
+      "std": 0.4555081258564116,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.38647551613577125
+    },
+    "von_neumann_entropy": {
+      "mean": 0.9017886121422979,
+      "std": 0.9697205896947821,
+      "min": 0.0,
+      "max": 2.5380797068571046,
+      "median": 0.4591479170272448
+    },
+    "active_frames": {
+      "mean": 2.175,
+      "std": 2.3117904316784426,
+      "min": 0.0,
+      "max": 7.0,
+      "median": 1.5
+    },
+    "dominant_probability": {
+      "mean": 0.2636197957299631,
+      "std": 0.289177716270897,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.23180076628352492
+    },
+    "reform_probability": {
+      "mean": 0.011061289679443838,
+      "std": 0.03793252525615154,
+      "min": 0.0,
+      "max": 0.2222222222222222
+    },
+    "accountability_probability": {
+      "mean": 0.04236111111111111,
+      "std": 0.16503688093241836,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "justice_probability": {
+      "mean": 0.02708333333333333,
+      "std": 0.09285581797657466,
+      "min": 0.0,
+      "max": 0.5
+    },
+    "victim_support_probability": {
+      "mean": 0.018223180076628355,
+      "std": 0.05578524962567566,
+      "min": 0.0,
+      "max": 0.25
+    },
+    "public_sentiment_probability": {
+      "mean": 0.05720336852689793,
+      "std": 0.12804334397588465,
+      "min": 0.0,
+      "max": 0.5384615384615384
+    },
+    "economic_probability": {
+      "mean": 0.03851487599902914,
+      "std": 0.10534474457097769,
+      "min": 0.0,
+      "max": 0.5625
+    },
+    "safety_probability": {
+      "mean": 0.04162476053639847,
+      "std": 0.12482654249416919,
+      "min": 0.0,
+      "max": 0.6666666666666666
+    },
+    "communication_probability": {
+      "mean": 0.13447099673202617,
+      "std": 0.21023433943525888,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "policy_probability": {
+      "mean": 0.058579449905514815,
+      "std": 0.09672721219696004,
+      "min": 0.0,
+      "max": 0.3333333333333333
+    },
+    "corporate_governance_probability": {
+      "mean": 0.07679837164750958,
+      "std": 0.16679210044011372,
+      "min": 0.0,
+      "max": 0.6666666666666666
+    },
+    "labour_probability": {
+      "mean": 0.04407926245210728,
+      "std": 0.11992293923872648,
+      "min": 0.0,
+      "max": 0.6666666666666666
+    }
+  },
+  "AI_Generated": {
+    "frame_competition": {
+      "mean": 0.5216739919889137,
+      "std": 0.4264672478981379,
+      "min": -0.0,
+      "max": 1.0,
+      "median": 0.6493974703476992
+    },
+    "frame_competition_kl": {
+      "mean": 0.5779467562152351,
+      "std": 0.4401015041912648,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.8527924884900404
+    },
+    "frame_entropy": {
+      "mean": 0.5779467562152351,
+      "std": 0.4401015041912648,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.8527924884900406
+    },
+    "von_neumann_entropy": {
+      "mean": 1.121244775677562,
+      "std": 0.9526462852294509,
+      "min": 0.0,
+      "max": 3.0420006612655635,
+      "median": 1.2987949406953985
+    },
+    "active_frames": {
+      "mean": 2.7997762863534676,
+      "std": 2.2833802690984055,
+      "min": 0.0,
+      "max": 10.0,
+      "median": 3.0
+    },
+    "dominant_probability": {
+      "mean": 0.4212208367266682,
+      "std": 0.3154049803877638,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.4
+    },
+    "reform_probability": {
+      "mean": 0.02674154493224542,
+      "std": 0.08576391831422249,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "accountability_probability": {
+      "mean": 0.04216682289224429,
+      "std": 0.11748375319906847,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "justice_probability": {
+      "mean": 0.08624351421525846,
+      "std": 0.20378135055442662,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "victim_support_probability": {
+      "mean": 0.023037224084440304,
+      "std": 0.07542951559831493,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "public_sentiment_probability": {
+      "mean": 0.1815860085945919,
+      "std": 0.24935286221149627,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "economic_probability": {
+      "mean": 0.08245141124690379,
+      "std": 0.18653586203123132,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "safety_probability": {
+      "mean": 0.06621611335717073,
+      "std": 0.15503014503523496,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "communication_probability": {
+      "mean": 0.0942123067344029,
+      "std": 0.18790765107431817,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "policy_probability": {
+      "mean": 0.10097840385729774,
+      "std": 0.17808402762178166,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "corporate_governance_probability": {
+      "mean": 0.038562042274909156,
+      "std": 0.1048618827589816,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "labour_probability": {
+      "mean": 0.03073525658011023,
+      "std": 0.11949373589065201,
+      "min": 0.0,
+      "max": 1.0
+    }
+  },
+  "frame_catalogue": [
+    "reform",
+    "accountability",
+    "justice",
+    "victim_support",
+    "public_sentiment",
+    "economic",
+    "safety",
+    "communication",
+    "policy",
+    "corporate_governance",
+    "labour"
+  ]
+}

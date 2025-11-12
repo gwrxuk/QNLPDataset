@@ -1,0 +1,5 @@
+﻿Field,Count,Multiple_Reality_Mean,Multiple_Reality_Std,Frame_Competition_Mean,Frame_Competition_Std,Von_Neumann_Entropy_Mean,Von_Neumann_Entropy_Std,Semantic_Interference_Mean,Semantic_Interference_Std,Word_Count_Mean,Word_Count_Std
+新聞標題,70,1.6947,0.0235,1.0000,0.0000,3.9429,0.2338,0.0011,0.0022,17.3,5.5
+影片對話,50,1.7057,0.0014,1.0000,0.0000,4.0000,0.0000,0.0188,0.0046,379.6,132.4
+影片描述,50,1.7034,0.0012,1.0000,0.0000,4.0000,0.0000,0.0109,0.0036,450.3,517.8
+新聞內容,20,1.7054,0.0018,1.0000,0.0000,4.0000,0.0000,0.0177,0.0060,568.1,324.9

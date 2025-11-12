@@ -1,0 +1,256 @@
+{
+  "AI_Generated": {
+    "新聞標題": {
+      "von_neumann_entropy": {
+        "mean": 3.996644295278969,
+        "std": 0.057928444635680636,
+        "min": 2.999999999988458,
+        "max": 3.9999999999769167,
+        "median": 3.9999999999769167,
+        "count": 298
+      },
+      "superposition_strength": {
+        "mean": 3.7491610738255035,
+        "std": 0.01448211115908731,
+        "min": 3.5,
+        "max": 3.75,
+        "median": 3.75,
+        "count": 298
+      },
+      "quantum_coherence": {
+        "mean": 0.9372902684563759,
+        "std": 0.0036205277897718275,
+        "min": 0.875,
+        "max": 0.9375,
+        "median": 0.9375,
+        "count": 298
+      },
+      "semantic_interference": {
+        "mean": 0.0013921456986821156,
+        "std": 0.0025623392248752194,
+        "min": 0.0,
+        "max": 0.028125,
+        "median": 0.0,
+        "count": 298
+      },
+      "frame_competition": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "median": 1.0,
+        "count": 298
+      },
+      "multiple_reality_strength": {
+        "mean": 1.7001435319233138,
+        "std": 0.005894430422866429,
+        "min": 1.6,
+        "max": 1.7084375,
+        "median": 1.7,
+        "count": 298
+      }
+    },
+    "影片對話": {
+      "von_neumann_entropy": {
+        "mean": 3.999999999976917,
+        "std": 4.448362065257808e-16,
+        "min": 3.9999999999769167,
+        "max": 3.9999999999769167,
+        "median": 3.9999999999769167,
+        "count": 298
+      },
+      "superposition_strength": {
+        "mean": 3.75,
+        "std": 0.0,
+        "min": 3.75,
+        "max": 3.75,
+        "median": 3.75,
+        "count": 298
+      },
+      "quantum_coherence": {
+        "mean": 0.9375,
+        "std": 0.0,
+        "min": 0.9375,
+        "max": 0.9375,
+        "median": 0.9375,
+        "count": 298
+      },
+      "semantic_interference": {
+        "mean": 0.01776894828080381,
+        "std": 0.0042323589735444355,
+        "min": 0.005917774172812,
+        "max": 0.0326249422623598,
+        "median": 0.0175005416563414,
+        "count": 298
+      },
+      "frame_competition": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "median": 1.0,
+        "count": 298
+      },
+      "multiple_reality_strength": {
+        "mean": 1.705385658274823,
+        "std": 0.0012736055143107259,
+        "min": 1.7017753322518436,
+        "max": 1.7097874826787078,
+        "median": 1.705348978228822,
+        "count": 298
+      }
+    },
+    "影片描述": {
+      "von_neumann_entropy": {
+        "mean": 3.999999999976917,
+        "std": 4.448362065257808e-16,
+        "min": 3.9999999999769167,
+        "max": 3.9999999999769167,
+        "median": 3.9999999999769167,
+        "count": 298
+      },
+      "superposition_strength": {
+        "mean": 3.75,
+        "std": 0.0,
+        "min": 3.75,
+        "max": 3.75,
+        "median": 3.75,
+        "count": 298
+      },
+      "quantum_coherence": {
+        "mean": 0.9375,
+        "std": 0.0,
+        "min": 0.9375,
+        "max": 0.9375,
+        "median": 0.9375,
+        "count": 298
+      },
+      "semantic_interference": {
+        "mean": 0.010610480578367507,
+        "std": 0.004570341556390503,
+        "min": 0.0040702439662839,
+        "max": 0.0465609210342998,
+        "median": 0.010097901960866299,
+        "count": 298
+      },
+      "frame_competition": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "median": 1.0,
+        "count": 298
+      },
+      "multiple_reality_strength": {
+        "mean": 1.703268036389533,
+        "std": 0.001426262088583476,
+        "min": 1.7012210731898851,
+        "max": 1.71396827631029,
+        "median": 1.70307860963238,
+        "count": 298
+      }
+    }
+  },
+  "Journalist_Written": {
+    "新聞標題": {
+      "von_neumann_entropy": {
+        "mean": 3.8499999999786487,
+        "std": 0.36634754852829504,
+        "min": 2.999999999988458,
+        "max": 3.9999999999769167,
+        "median": 3.9999999999769167,
+        "count": 20
+      },
+      "superposition_strength": {
+        "mean": 3.7125,
+        "std": 0.09158688713313082,
+        "min": 3.5,
+        "max": 3.75,
+        "median": 3.75,
+        "count": 20
+      },
+      "quantum_coherence": {
+        "mean": 0.928125,
+        "std": 0.022896721783282704,
+        "min": 0.875,
+        "max": 0.9375,
+        "median": 0.9375,
+        "count": 20
+      },
+      "semantic_interference": {
+        "mean": 0.0008164704753738448,
+        "std": 0.0021617916550289553,
+        "min": 0.0,
+        "max": 0.0081818181818181,
+        "median": 0.0,
+        "count": 20
+      },
+      "frame_competition": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "median": 1.0,
+        "count": 20
+      },
+      "multiple_reality_strength": {
+        "mean": 1.6856020839997552,
+        "std": 0.03693109661406528,
+        "min": 1.6,
+        "max": 1.707142857142857,
+        "median": 1.7,
+        "count": 20
+      }
+    },
+    "新聞內容": {
+      "von_neumann_entropy": {
+        "mean": 3.999999999976917,
+        "std": 4.556259157007654e-16,
+        "min": 3.9999999999769167,
+        "max": 3.9999999999769167,
+        "median": 3.9999999999769167,
+        "count": 20
+      },
+      "superposition_strength": {
+        "mean": 3.75,
+        "std": 0.0,
+        "min": 3.75,
+        "max": 3.75,
+        "median": 3.75,
+        "count": 20
+      },
+      "quantum_coherence": {
+        "mean": 0.9375,
+        "std": 0.0,
+        "min": 0.9375,
+        "max": 0.9375,
+        "median": 0.9375,
+        "count": 20
+      },
+      "semantic_interference": {
+        "mean": 0.017703923243286922,
+        "std": 0.00601945858255449,
+        "min": 0.0067574796909054,
+        "max": 0.0289871413530085,
+        "median": 0.01757474452227695,
+        "count": 20
+      },
+      "frame_competition": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "median": 1.0,
+        "count": 20
+      },
+      "multiple_reality_strength": {
+        "mean": 1.7054186556065378,
+        "std": 0.0018382714873651554,
+        "min": 1.7020272439072717,
+        "max": 1.7089319914625063,
+        "median": 1.7054369029261682,
+        "count": 20
+      }
+    }
+  }
+}

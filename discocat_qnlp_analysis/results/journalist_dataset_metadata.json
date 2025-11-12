@@ -1,0 +1,103 @@
+{
+  "dataset_name": "台湾中央社记者新闻数据集",
+  "file_name": "cna.csv",
+  "file_format": "CSV (.csv)",
+  "total_records": 20,
+  "total_columns": 4,
+  "column_names": [
+    "url",
+    "title",
+    "date",
+    "content"
+  ],
+  "analysis_date": "2025-09-26 15:27:04",
+  "source": "台湾中央通讯社 (Central News Agency Taiwan)",
+  "language": "繁体中文",
+  "fields_analysis": {
+    "url": {
+      "non_null_count": 20,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "data_type": "object",
+      "avg_length": 53.05,
+      "min_length": 49,
+      "max_length": 55,
+      "median_length": 55.0,
+      "samples": [
+        "https://www.cna.com.tw/news/ait/202003030076.aspx",
+        "https://www.cna.com.tw/news/firstnews/202010280059.aspx",
+        "https://www.cna.com.tw/news/aipl/202011170083.aspx"
+      ]
+    },
+    "title": {
+      "non_null_count": 20,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "data_type": "object",
+      "avg_length": 21.95,
+      "min_length": 14,
+      "max_length": 30,
+      "median_length": 21.0,
+      "samples": [
+        "中正高中機器人競賽獲獎 曼巴學院掛國旗",
+        "國軍戰車隱匿廢五金堆蓄勢待發 創意源自變形金剛",
+        "募集人心爭取認同 國民黨設電商中心賣商品"
+      ]
+    },
+    "date": {
+      "non_null_count": 20,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "data_type": "object",
+      "avg_length": 9.4,
+      "min_length": 8,
+      "max_length": 10,
+      "median_length": 9.5,
+      "samples": [
+        "2020/3/3",
+        "2020/10/28",
+        "2020/11/17"
+      ]
+    },
+    "content": {
+      "non_null_count": 20,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "data_type": "object",
+      "avg_length": 970.55,
+      "min_length": 341,
+      "max_length": 2154,
+      "median_length": 776.5,
+      "samples": [
+        "（中央社記者林宏翰洛杉磯2日專電）已故籃球明星布萊恩（Kobe Bryant）創立的曼巴運動學院上週末舉辦機器人競賽，來自台灣的中正高中17名學生團隊，1日在洛杉磯拿下新秀全明星獎、取得赴底特律參加決...",
+        "（中央社記者游凱翔桃園28日電）陸軍584旅今天在桃園民間資源回收廠實施戰力防護演練，官兵發揮想像與創意，將雲豹甲車偽裝成工程起重車，勇虎戰車隱匿廢五金堆裡，有如電影「變形金剛」博派金剛隱身資材場，待...",
+        "（中央社記者劉冠廷台北17日電）國民黨電商中心今天成立，黨主席江啟臣表示，這不是為了營利，是募集人心的一個過程，爭取更多的認同；此外，他也透露，國民黨的募款餐會已在規劃中，規劃完成後，會再向外界報告。..."
+      ]
+    }
+  },
+  "temporal_coverage": {
+    "earliest_date": "2020-01-19",
+    "latest_date": "2020-12-31",
+    "date_range_days": 347,
+    "unique_dates": 19
+  },
+  "url_analysis": {
+    "total_urls": 20,
+    "unique_urls": 20,
+    "domains": {
+      "www.cna.com.tw": 20
+    }
+  },
+  "content_quality": {
+    "title": {
+      "avg_char_count": 21.95,
+      "unique_titles": 20,
+      "duplicate_rate": 0.0
+    },
+    "content": {
+      "avg_char_count": 970.55,
+      "unique_contents": 20,
+      "duplicate_rate": 0.0
+    }
+  }
+}
