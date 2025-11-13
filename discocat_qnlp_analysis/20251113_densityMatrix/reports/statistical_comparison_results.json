@@ -1,0 +1,466 @@
+{
+  "overall": {
+    "von_neumann_entropy": {
+      "metric_name": "馮紐曼熵",
+      "ai_stats": {
+        "mean": -1.4421840453172037e-12,
+        "std": 4.285544374608091e-17,
+        "median": -1.4421826120167546e-12,
+        "min": -1.4434639826182802e-12,
+        "max": -1.4421826120167546e-12,
+        "q25": -1.4421826120167546e-12,
+        "q75": -1.4421826120167546e-12,
+        "n": 894
+      },
+      "journalist_stats": {
+        "mean": -1.442278714811869e-12,
+        "std": 3.418014855787646e-16,
+        "median": -1.4421826120167546e-12,
+        "min": -1.4434639826182802e-12,
+        "max": -1.4421826120167546e-12,
+        "q25": -1.4421826120167546e-12,
+        "q75": -1.4421826120167546e-12,
+        "n": 40
+      },
+      "cohens_d": 1.1610452169076766,
+      "effect_size_interpretation": "大",
+      "t_test": {
+        "statistic": 1.751109993269903,
+        "p_value": 0.08777844824065494,
+        "significant": "False"
+      },
+      "mann_whitney_test": {
+        "statistic": 19201.0,
+        "p_value": 2.667476235002049e-12,
+        "significant": "True"
+      },
+      "variability_ratio": 0.1253810926933649,
+      "mean_difference": 9.466949466543039e-17,
+      "mean_difference_percent": 0.0
+    },
+    "superposition_strength": {
+      "metric_name": "量子疊加強度",
+      "ai_stats": {
+        "mean": 3.749720357941833,
+        "std": 0.008361250776133125,
+        "median": 3.749999999999998,
+        "min": 3.4999999999999982,
+        "max": 3.749999999999998,
+        "q25": 3.749999999999998,
+        "q75": 3.749999999999998,
+        "n": 894
+      },
+      "journalist_stats": {
+        "mean": 3.731249999999998,
+        "std": 0.0666866957092295,
+        "median": 3.749999999999998,
+        "min": 3.4999999999999982,
+        "max": 3.749999999999998,
+        "q25": 3.749999999999998,
+        "q75": 3.749999999999998,
+        "n": 40
+      },
+      "cohens_d": 1.1610452169059606,
+      "effect_size_interpretation": "大",
+      "t_test": {
+        "statistic": 1.7511099932673149,
+        "p_value": 0.08777844824110652,
+        "significant": "False"
+      },
+      "mann_whitney_test": {
+        "statistic": 19201.0,
+        "p_value": 2.667476235002049e-12,
+        "significant": "True"
+      },
+      "variability_ratio": 0.12538109269336492,
+      "mean_difference": 0.018470357941835047,
+      "mean_difference_percent": 0.4950179682903868
+    },
+    "quantum_coherence": {
+      "metric_name": "量子相干性",
+      "ai_stats": {
+        "mean": 14.9910514541387,
+        "std": 0.26756002483626035,
+        "median": 14.999999999999998,
+        "min": 7.000000000000002,
+        "max": 14.999999999999998,
+        "q25": 14.999999999999998,
+        "q75": 14.999999999999998,
+        "n": 894
+      },
+      "journalist_stats": {
+        "mean": 14.4,
+        "std": 2.133974262695347,
+        "median": 14.999999999999998,
+        "min": 7.000000000000002,
+        "max": 14.999999999999998,
+        "q25": 14.999999999999998,
+        "q75": 14.999999999999998,
+        "n": 40
+      },
+      "cohens_d": 1.161045216905917,
+      "effect_size_interpretation": "大",
+      "t_test": {
+        "statistic": 1.7511099932672496,
+        "p_value": 0.08777844824111788,
+        "significant": "False"
+      },
+      "mann_whitney_test": {
+        "statistic": 19201.0,
+        "p_value": 2.667476235002049e-12,
+        "significant": "True"
+      },
+      "variability_ratio": 0.12538109269336492,
+      "mean_difference": 0.5910514541387002,
+      "mean_difference_percent": 4.104523987074306
+    },
+    "semantic_interference": {
+      "metric_name": "語義干涉",
+      "ai_stats": {
+        "mean": 0.009923858185951142,
+        "std": 0.0077507597189632555,
+        "median": 0.01001560639299225,
+        "min": 0.0,
+        "max": 0.0465609210342998,
+        "q25": 0.0024930747922437,
+        "q75": 0.015890137687884925,
+        "n": 894
+      },
+      "journalist_stats": {
+        "mean": 0.009260196859330386,
+        "std": 0.009646439333571774,
+        "median": 0.007469648936361749,
+        "min": 0.0,
+        "max": 0.0289871413530085,
+        "q25": 0.0,
+        "q75": 0.017504689079373876,
+        "n": 40
+      },
+      "cohens_d": 0.08465844769022152,
+      "effect_size_interpretation": "微小",
+      "t_test": {
+        "statistic": 0.4289690776430922,
+        "p_value": 0.6701759769791767,
+        "significant": "False"
+      },
+      "mann_whitney_test": {
+        "statistic": 19383.5,
+        "p_value": 0.3655657635391776,
+        "significant": "False"
+      },
+      "variability_ratio": 0.8034840059573973,
+      "mean_difference": 0.0006636613266207559,
+      "mean_difference_percent": 7.166816609865742
+    },
+    "frame_competition": {
+      "metric_name": "框架競爭",
+      "ai_stats": {
+        "mean": 1.000000000005769,
+        "std": 6.434134814780885e-14,
+        "median": 1.0000000000057712,
+        "min": 1.0000000000038474,
+        "max": 1.0000000000057712,
+        "q25": 1.0000000000057712,
+        "q75": 1.0000000000057712,
+        "n": 894
+      },
+      "journalist_stats": {
+        "mean": 1.000000000005627,
+        "std": 5.131660137962369e-13,
+        "median": 1.0000000000057712,
+        "min": 1.0000000000038474,
+        "max": 1.0000000000057712,
+        "q25": 1.0000000000057712,
+        "q75": 1.0000000000057712,
+        "n": 40
+      },
+      "cohens_d": 1.1590339573918562,
+      "effect_size_interpretation": "大",
+      "t_test": {
+        "statistic": 1.7480768080990416,
+        "p_value": 0.08830900640340478,
+        "significant": "False"
+      },
+      "mann_whitney_test": {
+        "statistic": 19201.0,
+        "p_value": 2.667476235002049e-12,
+        "significant": "True"
+      },
+      "variability_ratio": 0.1253811562301881,
+      "mean_difference": 1.41886502547095e-13,
+      "mean_difference_percent": 1.418865025462966e-11
+    },
+    "multiple_reality_strength": {
+      "metric_name": "多重現實強度",
+      "ai_stats": {
+        "mean": 1.7029324088637097,
+        "std": 0.004172892264626107,
+        "median": 1.7030527986292086,
+        "min": 1.600000000000769,
+        "max": 1.7139682763114434,
+        "q25": 1.7007479224388264,
+        "q75": 1.7049116410202587,
+        "n": 894
+      },
+      "journalist_stats": {
+        "mean": 1.6955103698042708,
+        "std": 0.027691238430641512,
+        "median": 1.7026654215173533,
+        "min": 1.600000000000769,
+        "max": 1.7089319914636598,
+        "q25": 1.7000000000011537,
+        "q75": 1.7055866384715141,
+        "n": 40
+      },
+      "cohens_d": 1.0627700751793594,
+      "effect_size_interpretation": "大",
+      "t_test": {
+        "statistic": 1.694300087401037,
+        "p_value": 0.0981647999267201,
+        "significant": "False"
+      },
+      "mann_whitney_test": {
+        "statistic": 18917.5,
+        "p_value": 0.5326495831529081,
+        "significant": "False"
+      },
+      "variability_ratio": 0.15069359483787576,
+      "mean_difference": 0.007422039059438834,
+      "mean_difference_percent": 0.4377466037141154
+    }
+  },
+  "by_field": {
+    "新聞標題": {
+      "von_neumann_entropy": {
+        "metric_name": "馮紐曼熵",
+        "ai_stats": {
+          "mean": -1.442186911918102e-12,
+          "std": 7.4227805949122e-17,
+          "median": -1.4421826120167546e-12,
+          "min": -1.4434639826182802e-12,
+          "max": -1.4421826120167546e-12,
+          "q25": -1.4421826120167546e-12,
+          "q75": -1.4421826120167546e-12,
+          "n": 298
+        },
+        "journalist_stats": {
+          "mean": -1.4423748176069832e-12,
+          "std": 4.694269786305534e-16,
+          "median": -1.4421826120167546e-12,
+          "min": -1.4434639826182802e-12,
+          "max": -1.4421826120167546e-12,
+          "q25": -1.4421826120167546e-12,
+          "q75": -1.4421826120167546e-12,
+          "n": 20
+        },
+        "cohens_d": 1.3842033542079855,
+        "effect_size_interpretation": "大",
+        "t_test": {
+          "statistic": 1.7886394177112421,
+          "p_value": 0.08957679792722115,
+          "significant": "False"
+        },
+        "mann_whitney_test": {
+          "statistic": 3417.0,
+          "p_value": 1.3389784231180234e-08,
+          "significant": "True"
+        },
+        "variability_ratio": 0.15812428626421252,
+        "mean_difference": 1.8790568888116836e-16,
+        "mean_difference_percent": 0.0
+      },
+      "superposition_strength": {
+        "metric_name": "量子疊加強度",
+        "ai_stats": {
+          "mean": 3.7491610738255012,
+          "std": 0.014482111159087284,
+          "median": 3.749999999999998,
+          "min": 3.4999999999999982,
+          "max": 3.749999999999998,
+          "q25": 3.749999999999998,
+          "q75": 3.749999999999998,
+          "n": 298
+        },
+        "journalist_stats": {
+          "mean": 3.7124999999999986,
+          "std": 0.09158688713313065,
+          "median": 3.749999999999998,
+          "min": 3.4999999999999982,
+          "max": 3.749999999999998,
+          "q25": 3.749999999999998,
+          "q75": 3.749999999999998,
+          "n": 20
+        },
+        "cohens_d": 1.3842033542099677,
+        "effect_size_interpretation": "大",
+        "t_test": {
+          "statistic": 1.7886394177138034,
+          "p_value": 0.08957679792679576,
+          "significant": "False"
+        },
+        "mann_whitney_test": {
+          "statistic": 3417.0,
+          "p_value": 1.3389784231180234e-08,
+          "significant": "True"
+        },
+        "variability_ratio": 0.15812428626421263,
+        "mean_difference": 0.036661073825502655,
+        "mean_difference_percent": 0.987503672067412
+      },
+      "quantum_coherence": {
+        "metric_name": "量子相干性",
+        "ai_stats": {
+          "mean": 14.973154362416105,
+          "std": 0.46342755709079364,
+          "median": 14.999999999999998,
+          "min": 7.000000000000002,
+          "max": 14.999999999999998,
+          "q25": 14.999999999999998,
+          "q75": 14.999999999999998,
+          "n": 298
+        },
+        "journalist_stats": {
+          "mean": 13.8,
+          "std": 2.930780388260185,
+          "median": 14.999999999999998,
+          "min": 7.000000000000002,
+          "max": 14.999999999999998,
+          "q25": 14.999999999999998,
+          "q75": 14.999999999999998,
+          "n": 20
+        },
+        "cohens_d": 1.3842033542099887,
+        "effect_size_interpretation": "大",
+        "t_test": {
+          "statistic": 1.788639417713831,
+          "p_value": 0.08957679792679119,
+          "significant": "False"
+        },
+        "mann_whitney_test": {
+          "statistic": 3417.0,
+          "p_value": 1.3389784231180234e-08,
+          "significant": "True"
+        },
+        "variability_ratio": 0.1581242862642126,
+        "mean_difference": 1.1731543624161045,
+        "mean_difference_percent": 8.501118568232641
+      },
+      "semantic_interference": {
+        "metric_name": "語義干涉",
+        "ai_stats": {
+          "mean": 0.0013921456986821156,
+          "std": 0.0025623392248752194,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.028125,
+          "q25": 0.0,
+          "q75": 0.0024930747922437,
+          "n": 298
+        },
+        "journalist_stats": {
+          "mean": 0.0008164704753738448,
+          "std": 0.0021617916550289553,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0081818181818181,
+          "q25": 0.0,
+          "q75": 0.0,
+          "n": 20
+        },
+        "cohens_d": 0.2266401277210006,
+        "effect_size_interpretation": "小",
+        "t_test": {
+          "statistic": 0.9811747788908394,
+          "p_value": 0.3272571551773512,
+          "significant": "False"
+        },
+        "mann_whitney_test": {
+          "statistic": 3590.5,
+          "p_value": 0.07771875148305554,
+          "significant": "False"
+        },
+        "variability_ratio": 1.185285001408195,
+        "mean_difference": 0.0005756752233082708,
+        "mean_difference_percent": 70.50778205356185
+      },
+      "frame_competition": {
+        "metric_name": "框架競爭",
+        "ai_stats": {
+          "mean": 1.000000000005765,
+          "std": 1.1144267663134351e-13,
+          "median": 1.0000000000057712,
+          "min": 1.0000000000038474,
+          "max": 1.0000000000057712,
+          "q25": 1.0000000000057712,
+          "q75": 1.0000000000057712,
+          "n": 298
+        },
+        "journalist_stats": {
+          "mean": 1.0000000000054823,
+          "std": 7.047774553939423e-13,
+          "median": 1.0000000000057712,
+          "min": 1.0000000000038474,
+          "max": 1.0000000000057712,
+          "q25": 1.0000000000057712,
+          "q75": 1.0000000000057712,
+          "n": 20
+        },
+        "cohens_d": 1.3868975219707622,
+        "effect_size_interpretation": "大",
+        "t_test": {
+          "statistic": 1.7921218648919826,
+          "p_value": 0.089000010602621,
+          "significant": "False"
+        },
+        "mann_whitney_test": {
+          "statistic": 3417.0,
+          "p_value": 1.3389784231180234e-08,
+          "significant": "True"
+        },
+        "variability_ratio": 0.15812463321354614,
+        "mean_difference": 2.8266278206956486e-13,
+        "mean_difference_percent": 2.8266278206801522e-11
+      },
+      "multiple_reality_strength": {
+        "metric_name": "多重現實強度",
+        "ai_stats": {
+          "mean": 1.7001435319244664,
+          "std": 0.0058944304228884204,
+          "median": 1.7000000000011537,
+          "min": 1.600000000000769,
+          "max": 1.7084375000011534,
+          "q25": 1.7000000000011537,
+          "q75": 1.7007479224388264,
+          "n": 298
+        },
+        "journalist_stats": {
+          "mean": 1.6856020840008508,
+          "std": 0.036931096614206065,
+          "median": 1.7000000000011537,
+          "min": 1.600000000000769,
+          "max": 1.7071428571440106,
+          "q25": 1.7000000000011537,
+          "q75": 1.7000000000011537,
+          "n": 20
+        },
+        "cohens_d": 1.3579926388553762,
+        "effect_size_interpretation": "大",
+        "t_test": {
+          "statistic": 1.7593794412544537,
+          "p_value": 0.09455161884875131,
+          "significant": "False"
+        },
+        "mann_whitney_test": {
+          "statistic": 3674.5,
+          "p_value": 0.0483163514739434,
+          "significant": "True"
+        },
+        "variability_ratio": 0.15960615750091334,
+        "mean_difference": 0.014541447923615669,
+        "mean_difference_percent": 0.8626856873065143
+      }
+    }
+  },
+  "analysis_method": "density_matrix",
+  "description": "使用密度矩陣 (ρ = |ψ⟩⟨ψ|) 計算 von Neumann 熵"
+}

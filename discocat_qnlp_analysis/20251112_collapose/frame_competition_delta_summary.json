@@ -1,0 +1,25 @@
+{
+  "output_dir": "/Users/junghualiu/case/a2a/qnlp/discocat_qnlp_analysis/20251112_collapose",
+  "ai_results": "/Users/junghualiu/case/a2a/qnlp/discocat_qnlp_analysis/20251112_collapose/fast_qiskit_with_collapse_ai_analysis_results.csv",
+  "journalist_results": "/Users/junghualiu/case/a2a/qnlp/discocat_qnlp_analysis/20251112_collapose/fast_qiskit_with_collapse_journalist_analysis_results.csv",
+  "ai_frame_competition_delta": {
+    "count": 894,
+    "mean": 0.0006559477507353594,
+    "std": 0.00025096330189392125,
+    "min": 0.0001621133280905,
+    "max": 0.0021754396025422,
+    "median": 0.00060802169438435,
+    "p10": 0.00037579849449243,
+    "p90": 0.00098467051493601
+  },
+  "journalist_frame_competition_delta": {
+    "count": 40,
+    "mean": 0.00059947225647178,
+    "std": 0.00014505800211423857,
+    "min": 0.0002399199249458,
+    "max": 0.0009257438213894,
+    "median": 0.00059216530260845,
+    "p10": 0.00039865515550891,
+    "p90": 0.00076623007734499
+  }
+}
