@@ -1,0 +1,20 @@
+[
+  {
+    "experiment": "|00⟩ + CNOT",
+    "is_entangled": "False",
+    "schmidt_rank": "1",
+    "linear_entropy": 0.0
+  },
+  {
+    "experiment": "H|0⟩|0⟩ + CNOT (Bell state)",
+    "is_entangled": "True",
+    "schmidt_rank": "2",
+    "linear_entropy": 4.440892098500626e-16
+  },
+  {
+    "experiment": "H + RY + CNOT (our circuit)",
+    "is_entangled": "True",
+    "schmidt_rank": "2",
+    "linear_entropy": 1.2212453270876722e-15
+  }
+]

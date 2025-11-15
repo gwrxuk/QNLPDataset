@@ -138,8 +138,16 @@ class FastQiskitDensityMatrixAnalyzer:
             # 1. 量子熵 - 使用密度矩陣計算
             von_neumann_entropy = self.calculate_von_neumann_entropy_from_density_matrix(statevector_data)
             
-            # 2. 叠加强度
-            superposition_strength = float(4 * np.sum(probabilities * (1 - probabilities)))
+            # 2. 叠加强度（標準化到 [0, 1] 範圍）
+            # 原始公式: 4 * sum(probabilities * (1 - probabilities))
+            # 對於 n 個狀態，最大值 = 4 * (1 - 1/n)
+            # 對於 4 qubits (16 狀態): 最大值 ≈ 3.75
+            num_states = len(probabilities)
+            max_superposition = 4.0 * (1.0 - 1.0 / num_states) if num_states > 1 else 1.0
+            superposition_strength_raw = 4 * np.sum(probabilities * (1 - probabilities))
+            superposition_strength = float(superposition_strength_raw / max_superposition) if max_superposition > 0 else 0.0
+            # 確保在 [0, 1] 範圍內
+            superposition_strength = max(0.0, min(1.0, superposition_strength))
             
             # 3. 量子相干性（基於密度矩陣）
             # 創建密度矩陣用於相干性計算
@@ -174,13 +182,19 @@ class FastQiskitDensityMatrixAnalyzer:
             negative_count = sum(1 for word in words if word in self.negative_words)
             emotional_intensity = (positive_count + negative_count) / len(words)
             
-            # 7. 多重现实强度
+            # 7. 多重现实强度（現在所有組件都在 [0, 1] 範圍內）
+            # 標準化 semantic_interference 和 emotional_intensity 到合理範圍
+            # semantic_interference 通常很小，可能需要縮放
+            # emotional_intensity 已經在 [0, 1] 範圍內（因為是計數/總數）
+            semantic_interference_normalized = min(1.0, semantic_interference * 10.0)  # 粗略標準化
             reality_strength = (
                 superposition_strength * 0.4 +
-                semantic_interference * 0.3 +
+                semantic_interference_normalized * 0.3 +
                 frame_competition * 0.2 +
                 emotional_intensity * 0.1
             )
+            # 確保在 [0, 1] 範圍內
+            reality_strength = max(0.0, min(1.0, reality_strength))
             
             # 基本统计
             word_count = len(words)
@@ -201,7 +215,7 @@ class FastQiskitDensityMatrixAnalyzer:
                 'frame_competition': frame_competition,
                 'emotional_intensity': float(emotional_intensity),
                 'multiple_reality_strength': float(reality_strength),
-                'analysis_version': 'fast_qiskit_density_matrix_v1.0'
+                'analysis_version': 'fast_qiskit_density_matrix_v1.1_normalized'
             }
             
         except Exception as e:
@@ -221,7 +235,14 @@ class FastQiskitDensityMatrixAnalyzer:
         
         # 简化指标（經典計算仍使用概率熵）
         von_neumann_entropy = float(-np.sum(probabilities * np.log2(probabilities + 1e-12)))
-        superposition_strength = float(4 * np.sum(probabilities * (1 - probabilities)))
+        
+        # 叠加强度（標準化到 [0, 1] 範圍）
+        num_states = len(probabilities)
+        max_superposition = 4.0 * (1.0 - 1.0 / num_states) if num_states > 1 else 1.0
+        superposition_strength_raw = 4 * np.sum(probabilities * (1 - probabilities))
+        superposition_strength = float(superposition_strength_raw / max_superposition) if max_superposition > 0 else 0.0
+        superposition_strength = max(0.0, min(1.0, superposition_strength))
+        
         quantum_coherence = float(len(set(words)) / len(words))
         semantic_interference = float(np.var(list(word_counts.values())) / len(words))
         
@@ -239,12 +260,16 @@ class FastQiskitDensityMatrixAnalyzer:
         negative_count = sum(1 for word in words if word in self.negative_words)
         emotional_intensity = (positive_count + negative_count) / len(words)
         
+        # 標準化 semantic_interference
+        semantic_interference_normalized = min(1.0, semantic_interference * 10.0)
         reality_strength = (
             superposition_strength * 0.4 +
-            semantic_interference * 0.3 +
+            semantic_interference_normalized * 0.3 +
             frame_competition * 0.2 +
             emotional_intensity * 0.1
         )
+        # 確保在 [0, 1] 範圍內
+        reality_strength = max(0.0, min(1.0, reality_strength))
         
         return {
             'field': field_name,
@@ -260,7 +285,7 @@ class FastQiskitDensityMatrixAnalyzer:
             'frame_competition': frame_competition,
             'emotional_intensity': float(emotional_intensity),
             'multiple_reality_strength': float(reality_strength),
-            'analysis_version': 'fast_classical_fallback_density_matrix_v1.0'
+            'analysis_version': 'fast_classical_fallback_density_matrix_v1.1_normalized'
         }
 
     def process_record_batch(self, records: List[Dict], record_type: str) -> List[Dict]:
